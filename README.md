@@ -1,6 +1,12 @@
 # Assembly-Mastery
 Dive into exercises, projects, and resources to enhance your low-level coding skills. Join us in exploring the world of assembly programming!
 
+
+Syntax of assembly language:
+```
+[label]   mnemonic   [operands]   [;comment]
+```
+
 ```
 ; This is a comment in assembly language
 ; Comments start with a semicolon and continue until the end of the line
