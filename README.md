@@ -29,5 +29,9 @@ _start:
     xor ebx, ebx        ; Exit code 0
     int 0x80            ; Call kernel
 ```
+Link for learning Assembly
+```
+https://www.tutorialspoint.com/assembly_programming/index.htm
+```
 
 
