@@ -7,6 +7,23 @@ Syntax of assembly language:
 [label]   mnemonic   [operands]   [;comment]
 ```
 
+##Assembly Directives
+Assembly directives are instructions used in assembly language programming to define data, control program flow, and provide other instructions to the assembler. They are not executable instructions themselves but rather instructions to the assembler on how to process and generate the machine code for the program.
+
+```
+db: Define Byte - Defines one or more bytes of data.
+dw: Define Word - Defines one or more words (16 bits) of data.
+dd: Define Doubleword - Defines one or more doublewords (32 bits) of data.
+dq: Define Quadword - Defines one or more quadwords (64 bits) of data.
+equ: Equate - Defines symbolic constants or expressions.
+section: Defines program sections (e.g., .data, .text).
+global: Makes symbols visible to the linker.
+extern: Declares external symbols from other modules.
+mov: Move - Copies data between registers, memory, or immediate values.
+jmp: Jump - Transfers control to a different part of the program.
+int: Interrupt - Invokes software interrupts for kernel functions.
+ret: Return - Returns control from a subroutine or function.
+nop: No Operation - An instruction that does nothing.
 ```
 ; This is a comment in assembly language
 ; Comments start with a semicolon and continue until the end of the line
