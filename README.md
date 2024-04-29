@@ -7,7 +7,7 @@ Syntax of assembly language:
 [label]   mnemonic   [operands]   [;comment]
 ```
 
-##Assembly Directives
+## Assembly Directives
 Assembly directives are instructions used in assembly language programming to define data, control program flow, and provide other instructions to the assembler. They are not executable instructions themselves but rather instructions to the assembler on how to process and generate the machine code for the program.
 
 ```
